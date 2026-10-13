@@ -1,0 +1,421 @@
+[
+  {
+    "case_id": "A1",
+    "label": "Elderly CKD patient - Metformin (reduced renal function)",
+    "patient": {
+      "age": 72,
+      "sex": "F",
+      "conditions": [
+        "chronic kidney disease",
+        "hypertension"
+      ],
+      "kidney": {
+        "egfr": 32,
+        "creatinine": 1.8
+      },
+      "liver": {
+        "ast": 22,
+        "alt": 25,
+        "bilirubin": 0.7
+      },
+      "allergies": [],
+      "current_medications": [
+        {
+          "name": "Lisinopril",
+          "dose": "10 mg",
+          "frequency": "once daily"
+        }
+      ],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "72-year-old female with CKD stage 3b and hypertension."
+    },
+    "drug_id": "metformin",
+    "dose": "500 mg",
+    "pair_group": "renal_function_metformin"
+  },
+  {
+    "case_id": "A2",
+    "label": "Younger patient, normal renal function - Metformin",
+    "patient": {
+      "age": 45,
+      "sex": "F",
+      "conditions": [
+        "hypertension"
+      ],
+      "kidney": {
+        "egfr": 95,
+        "creatinine": 0.8
+      },
+      "liver": {
+        "ast": 22,
+        "alt": 25,
+        "bilirubin": 0.7
+      },
+      "allergies": [],
+      "current_medications": [
+        {
+          "name": "Lisinopril",
+          "dose": "10 mg",
+          "frequency": "once daily"
+        }
+      ],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "45-year-old female with hypertension and normal renal function."
+    },
+    "drug_id": "metformin",
+    "dose": "500 mg",
+    "pair_group": "renal_function_metformin"
+  },
+  {
+    "case_id": "B1",
+    "label": "Elderly CKD patient - Gabapentin (reduced renal function)",
+    "patient": {
+      "age": 72,
+      "sex": "F",
+      "conditions": [
+        "chronic kidney disease",
+        "hypertension"
+      ],
+      "kidney": {
+        "egfr": 32,
+        "creatinine": 1.8
+      },
+      "liver": {
+        "ast": 22,
+        "alt": 25,
+        "bilirubin": 0.7
+      },
+      "allergies": [],
+      "current_medications": [
+        {
+          "name": "Lisinopril",
+          "dose": "10 mg",
+          "frequency": "once daily"
+        }
+      ],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "72-year-old female with CKD stage 3b and hypertension."
+    },
+    "drug_id": "gabapentin",
+    "dose": "300 mg",
+    "pair_group": "renal_function_gabapentin"
+  },
+  {
+    "case_id": "B2",
+    "label": "Young healthy patient - Gabapentin",
+    "patient": {
+      "age": 29,
+      "sex": "M",
+      "conditions": [],
+      "kidney": {
+        "egfr": 110,
+        "creatinine": 0.9
+      },
+      "liver": {
+        "ast": 18,
+        "alt": 20,
+        "bilirubin": 0.6
+      },
+      "allergies": [],
+      "current_medications": [],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "29-year-old male, no significant medical history."
+    },
+    "drug_id": "gabapentin",
+    "dose": "300 mg",
+    "pair_group": "renal_function_gabapentin"
+  },
+  {
+    "case_id": "C1",
+    "label": "Hepatic cirrhosis patient - Atorvastatin",
+    "patient": {
+      "age": 58,
+      "sex": "M",
+      "conditions": [
+        "hepatic cirrhosis"
+      ],
+      "kidney": {
+        "egfr": 88,
+        "creatinine": 0.9
+      },
+      "liver": {
+        "ast": 95,
+        "alt": 110,
+        "bilirubin": 2.1
+      },
+      "allergies": [],
+      "current_medications": [],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "58-year-old male with Child-Pugh B hepatic cirrhosis."
+    },
+    "drug_id": "atorvastatin",
+    "dose": "20 mg",
+    "pair_group": "hepatic_function_atorvastatin"
+  },
+  {
+    "case_id": "C2",
+    "label": "Young healthy patient - Atorvastatin",
+    "patient": {
+      "age": 29,
+      "sex": "M",
+      "conditions": [],
+      "kidney": {
+        "egfr": 110,
+        "creatinine": 0.9
+      },
+      "liver": {
+        "ast": 18,
+        "alt": 20,
+        "bilirubin": 0.6
+      },
+      "allergies": [],
+      "current_medications": [],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "29-year-old male, no significant medical history."
+    },
+    "drug_id": "atorvastatin",
+    "dose": "20 mg",
+    "pair_group": "hepatic_function_atorvastatin"
+  },
+  {
+    "case_id": "D1",
+    "label": "Documented penicillin allergy - Amoxicillin",
+    "patient": {
+      "age": 34,
+      "sex": "F",
+      "conditions": [],
+      "kidney": {
+        "egfr": 100,
+        "creatinine": 0.7
+      },
+      "liver": {
+        "ast": 20,
+        "alt": 22,
+        "bilirubin": 0.5
+      },
+      "allergies": [
+        "penicillin"
+      ],
+      "current_medications": [],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "34-year-old female with documented penicillin allergy."
+    },
+    "drug_id": "amoxicillin",
+    "dose": "500 mg",
+    "pair_group": "allergy_amoxicillin"
+  },
+  {
+    "case_id": "D2",
+    "label": "No known allergy - Amoxicillin",
+    "patient": {
+      "age": 29,
+      "sex": "M",
+      "conditions": [],
+      "kidney": {
+        "egfr": 110,
+        "creatinine": 0.9
+      },
+      "liver": {
+        "ast": 18,
+        "alt": 20,
+        "bilirubin": 0.6
+      },
+      "allergies": [],
+      "current_medications": [],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "29-year-old male, no significant medical history."
+    },
+    "drug_id": "amoxicillin",
+    "dose": "500 mg",
+    "pair_group": "allergy_amoxicillin"
+  },
+  {
+    "case_id": "E1",
+    "label": "Elderly polypharmacy patient - Ibuprofen (interaction risk)",
+    "patient": {
+      "age": 80,
+      "sex": "M",
+      "conditions": [
+        "atrial fibrillation",
+        "coronary artery disease",
+        "hypertension"
+      ],
+      "kidney": {
+        "egfr": 52,
+        "creatinine": 1.3
+      },
+      "liver": {
+        "ast": 25,
+        "alt": 28,
+        "bilirubin": 0.8
+      },
+      "allergies": [],
+      "current_medications": [
+        {
+          "name": "Metoprolol",
+          "dose": "50 mg",
+          "frequency": "twice daily"
+        },
+        {
+          "name": "Ibuprofen",
+          "dose": "200 mg",
+          "frequency": "as needed"
+        }
+      ],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "80-year-old male with AFib, CAD, hypertension, on multiple medications."
+    },
+    "drug_id": "ibuprofen",
+    "dose": "200 mg",
+    "pair_group": "interaction_ibuprofen"
+  },
+  {
+    "case_id": "E2",
+    "label": "Young healthy patient - Ibuprofen",
+    "patient": {
+      "age": 29,
+      "sex": "M",
+      "conditions": [],
+      "kidney": {
+        "egfr": 110,
+        "creatinine": 0.9
+      },
+      "liver": {
+        "ast": 18,
+        "alt": 20,
+        "bilirubin": 0.6
+      },
+      "allergies": [],
+      "current_medications": [],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "29-year-old male, no significant medical history."
+    },
+    "drug_id": "ibuprofen",
+    "dose": "200 mg",
+    "pair_group": "interaction_ibuprofen"
+  },
+  {
+    "case_id": "F1",
+    "label": "Elderly CKD patient - Digoxin (renal toxicity risk)",
+    "patient": {
+      "age": 72,
+      "sex": "F",
+      "conditions": [
+        "chronic kidney disease",
+        "hypertension"
+      ],
+      "kidney": {
+        "egfr": 32,
+        "creatinine": 1.8
+      },
+      "liver": {
+        "ast": 22,
+        "alt": 25,
+        "bilirubin": 0.7
+      },
+      "allergies": [],
+      "current_medications": [
+        {
+          "name": "Lisinopril",
+          "dose": "10 mg",
+          "frequency": "once daily"
+        }
+      ],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "72-year-old female with CKD stage 3b and hypertension."
+    },
+    "drug_id": "digoxin",
+    "dose": "0.125 mg",
+    "pair_group": "renal_function_digoxin"
+  },
+  {
+    "case_id": "F2",
+    "label": "Young healthy patient - Digoxin",
+    "patient": {
+      "age": 29,
+      "sex": "M",
+      "conditions": [],
+      "kidney": {
+        "egfr": 110,
+        "creatinine": 0.9
+      },
+      "liver": {
+        "ast": 18,
+        "alt": 20,
+        "bilirubin": 0.6
+      },
+      "allergies": [],
+      "current_medications": [],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "29-year-old male, no significant medical history."
+    },
+    "drug_id": "digoxin",
+    "dose": "0.125 mg",
+    "pair_group": "renal_function_digoxin"
+  },
+  {
+    "case_id": "G1",
+    "label": "Incomplete medical history - Warfarin (uncertainty demo)",
+    "patient": {
+      "age": 50,
+      "sex": null,
+      "conditions": [],
+      "kidney": {
+        "egfr": null,
+        "creatinine": null
+      },
+      "liver": {
+        "ast": null,
+        "alt": null,
+        "bilirubin": null
+      },
+      "allergies": [],
+      "current_medications": [],
+      "pregnancy_status": null,
+      "medical_history_text": "Limited intake information available."
+    },
+    "drug_id": "warfarin",
+    "dose": "5 mg",
+    "pair_group": "incomplete_history_warfarin"
+  },
+  {
+    "case_id": "H1",
+    "label": "Elderly patient - Sertraline + NSAID interaction context",
+    "patient": {
+      "age": 80,
+      "sex": "M",
+      "conditions": [
+        "atrial fibrillation",
+        "coronary artery disease",
+        "hypertension"
+      ],
+      "kidney": {
+        "egfr": 52,
+        "creatinine": 1.3
+      },
+      "liver": {
+        "ast": 25,
+        "alt": 28,
+        "bilirubin": 0.8
+      },
+      "allergies": [],
+      "current_medications": [
+        {
+          "name": "Metoprolol",
+          "dose": "50 mg",
+          "frequency": "twice daily"
+        },
+        {
+          "name": "Ibuprofen",
+          "dose": "200 mg",
+          "frequency": "as needed"
+        }
+      ],
+      "pregnancy_status": "not_applicable",
+      "medical_history_text": "80-year-old male with AFib, CAD, hypertension, on multiple medications."
+    },
+    "drug_id": "sertraline",
+    "dose": "50 mg",
+    "pair_group": "interaction_sertraline"
+  }
+]

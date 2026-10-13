@@ -1,0 +1,25 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+python-multipart
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+requests
+python-dotenv
+
+# Retrieval: real embeddings + FAISS are used automatically when available;
+# the system falls back to TF-IDF (scikit-learn, already listed above) if
+# these are not installed or cannot download their model weights.
+sentence-transformers
+faiss-cpu
+torch
+
+# Optional: enables live LLM generation via OpenRouter (OPENROUTER_API_KEY
+# in backend/.env) instead of the deterministic template generator. Not
+# required to run the system — generation silently falls back to the
+# template path if no key is set or a call fails. requests (above) is the
+# only package needed for the OpenRouter HTTP call.
